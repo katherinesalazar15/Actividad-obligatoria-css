@@ -1,0 +1,36 @@
+html {
+    font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    background-color: white;
+    height: 150px;
+    align-items: baseline;
+    align-self:flex-start;
+}
+
+.flex-container > div {
+    background-color: red; 
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    color: yellow;
+    vertical-align: top;
+    width: 155px;
+    height: 153px;
+    
+}
+
+#black {
+    background-color: black;
+    color: white;   
+}
+
+p {
+    display: flex;
+    font-size: 20px;
+    margin: 50px 10px 10px 10px;
+    font-style:initial;
+
+}
